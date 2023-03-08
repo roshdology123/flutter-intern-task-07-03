@@ -27,7 +27,6 @@ class ProgramCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(5),
         child: Container(
           width: 242,
-          height: 280,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(5), color: Color(0xffFFFFFF)),
           child: Column(
@@ -37,13 +36,13 @@ class ProgramCard extends StatelessWidget {
               SvgPicture.asset(
                 imgPath,
                 width: 242,
-                height: 140,
+                height: 135,
               ),
               SizedBox(
-                height: 10,
+                height: 5,
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: Text(
                   cardTitle,
                   style: TextStyle(
@@ -51,10 +50,10 @@ class ProgramCard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: Text(
                   cardDescription,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
                 ),
               ),
               SizedBox(
@@ -66,8 +65,8 @@ class ProgramCard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Container(
-                      height: 30,
-                      width: 90,
+                      height: 20,
+                      width: 120,
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
@@ -119,7 +118,7 @@ class ProgramCard extends StatelessWidget {
                               ),
                             )
                           : SizedBox(
-                              height: 8,
+                              height: 0,
                             )
                 ],
               ),
