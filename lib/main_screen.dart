@@ -189,6 +189,7 @@ class MainScreen extends StatelessWidget {
                                     cardDescription: program.name,
                                     cardInfo: "${program.lesson} Lessons",
                                     imgPath: 'assets/icons/Frame 122.svg',
+                                    isButton: true,
                                   ))
                               .toList(),
                         );

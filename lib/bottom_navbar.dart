@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_intern_0603/Widgets/learn_screen.dart';
 import 'package:flutter_intern_0603/main_screen.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
@@ -27,7 +28,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       context,
       screens: [
         MainScreen(),
-        Placeholder(),
+        LearnScreen(),
         Placeholder(),
         Placeholder(),
         Placeholder(),

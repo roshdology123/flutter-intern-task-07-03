@@ -65,7 +65,7 @@ class ProgramCard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Container(
-                      height: 20,
+                      height: 30,
                       width: 120,
                       child: Align(
                         alignment: Alignment.centerLeft,
@@ -81,7 +81,7 @@ class ProgramCard extends StatelessWidget {
                   ),
                   isButton!
                       ? Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          padding: const EdgeInsets.fromLTRB(8, 0, 8, 10),
                           child: InkWell(
                             child: Container(
                               height: 25,
@@ -104,8 +104,7 @@ class ProgramCard extends StatelessWidget {
                         )
                       : isLock!
                           ? Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(horizontal: 8.0),
+                              padding: const EdgeInsets.fromLTRB(8, 0, 8, 10),
                               child: InkWell(
                                 child: Container(
                                   height: 25,
